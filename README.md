@@ -1,2 +1,2 @@
 # Valkyrie
-A Generic Framework for Verifying Privacy Provisions in Wireless Networks
+A generic framework for verifying privacy provisions in wireless networks.
