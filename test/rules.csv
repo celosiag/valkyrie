@@ -1,0 +1,5 @@
+rule;frame (default=frame(=all frames));param_0,param_1;increment (default=1);loop (default=1);kstreshold (default=0.01);visualize
+SYNC_CNT_CHG;frame;wlan.ta,wlan.seq;1;1;0.01;true
+SYNC_CNT_CHG;wlan.ta==aa:aa:aa:aa:aa:00;wlan.ta,wlan.seq;1;1;0.01;false
+SYNC_CNT_CHG;wlan.ta==aa:aa:aa:aa:aa:00||wlan.ta==aa:aa:aa:aa:aa:01;wlan.ta,wlan.seq;1;1;0.01;false
+SYNC_ID_CHG;frame;wlan.ta,wlan.ssid;1;1;0.01;false
